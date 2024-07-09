@@ -1,0 +1,42 @@
+.for-box{
+    margin-top: -25px;
+    border: 3px solid black;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    width: fit-content;
+    gap: 20px;
+    padding: 20px 20px;
+}
+
+.for-flex{
+    display: flex;
+    justify-content: center;
+}
+
+.txt-field{
+    display: flex;
+    gap: 10px;
+}
+
+.div-label{
+    background-color: transparent;
+}
+
+.button1{
+    background-image: linear-gradient(to left, #19c3bd, #208da8, #4a79d1) !important;
+    border: 2px solid black !important;
+    font-family:'Times New Roman', Times, serif !important;
+    font-weight: 400 !important;
+}
+
+
+.button2{
+    background-image: linear-gradient(to left, #19c3bd, #208da8, #4a79d1) !important;
+    border: 2px solid black !important;
+    width: 300px;
+    position: relative;
+    left: 65px;
+    font-family:'Times New Roman', Times, serif !important;
+    font-weight: 400 !important;
+}
