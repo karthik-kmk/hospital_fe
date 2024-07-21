@@ -1,3 +1,75 @@
-.color{
-    background-color:linear-gradient(to left, #19c3bd, #208da8, #4a79d1); ;
+.image-sidebar {
+    position: relative;
+    height: 58px;
+    width: 60px;
+    top: 10px;
+    left: -20px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.css-10hburv-MuiTypography-root{
+    color:whitesmoke;
+    
+}
+.css-i4bv87-MuiSvgIcon-root{
+    color: whitesmoke;
+}
+
+.arrow1 {
+
+    width: 40px;
+    position: relative;
+    margin-right: 10px;
+    margin-left: 250px !important;
+    margin-top: -40px !important;
+    border-radius: 50% !important;
+
+}
+
+.arrow2 {
+    margin-left: -8px !important;
+    
+}
+
+
+.header-welcome {
+    margin-left: 10px;
+    position: relative;
+    top: 3px;
+
+
+}
+
+.bg-header {
+    overflow: hidden;
+    height: 100% !important;
+    background-image: linear-gradient(to left, #19c3bd, #208da8, #4a79d1) !important;
+}
+
+
+
+.logo-header {
+    height: 40px;
+    width: 40px;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.logout-btn {
+    position: absolute !important;
+    bottom: 0;
+}
+
+.css-1nxmd3h-MuiListItem-root {
+    width: 100%;
+
+}
+
+.css-h4y409-MuiList-root {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
 }

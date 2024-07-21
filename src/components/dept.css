@@ -1,0 +1,110 @@
+
+.dept-image {
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    
+    
+
+
+}
+#pulma{
+    margin-top: 100vh;
+}
+#pedia{
+    margin-top: 100vh;
+}
+#ortho{
+    margin-top: 0vh;
+}
+#neuro{
+    margin-top: 100vh;
+}
+
+#cardio{
+    margin-top: 100vh;
+}
+
+#gyne{
+    margin-top: 100vh;
+}
+
+.ptag-dept {
+    font-size: 80px;
+    color: white;
+    font-weight: 600;
+    z-index: 3;
+    position: absolute;
+    margin-top: 40px;
+
+}
+
+
+
+.div-dept1 {
+    display: flex;
+    justify-content: center;
+
+}
+
+.div-dept2 {
+    position: relative;
+    display: flex;
+    justify-content: end;
+
+    top: 20px;
+
+}
+
+.home-btn-dept {
+    border: 2px solid white;
+    right: 20px;
+    color: white;
+    font-weight: 700;
+    z-index: 3;
+    position: absolute;
+    padding: 10px;
+    font-size: 20px;
+    width: 100px;
+    border-radius: 10px;
+    background-image: linear-gradient(to left, #19c3bd, #208da8, #4a79d1);
+
+}
+
+
+
+.ptag-dept1 {
+    border: 2px solid white;
+    margin-top: 20px;
+    color: white;
+    font-weight: 700;
+    z-index: 3;
+    position: absolute;
+    padding: 20px;
+    font-size: 20px;
+    width: 900px;
+    border-radius: 10px;
+
+}
+
+.div-dept3 {
+    position: relative;
+    display: flex;
+    justify-content: end;
+    right: 40px;
+    top: 150px;
+
+
+
+
+
+}
+
+.hr-dept{
+    height: 3px;
+    width: 100%;
+    background-color: white;
+}
+
+
+

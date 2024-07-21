@@ -22,11 +22,11 @@ export default function Home() {
 
   return (
     <div>
-      <div className="image-center">
+      <div className="image-login-center">
         <img src={logo} alt="Logo" className="image-login" />
       </div>
       {/* for whole thing */}
-      <div className="for-center">
+      <div className="for-login-center">
         <div>
           <p className="for-text-login">Healior</p>
           <p className="for-text2-login">healing lives everyday...</p>
@@ -83,9 +83,9 @@ export default function Home() {
             Login
           </Button>
 
-          <div className="hr"></div>
+          <div className="hr-login"></div>
 
-          <Button variant="contained" className="label-login-signup-btn" onClick={() => {navigate("/signup");}}>Signup</Button>
+          <Button variant="contained" className="signup-btn-login" onClick={() => {navigate("/signup");}}>Signup</Button>
         </div>
       </div>
     </div>

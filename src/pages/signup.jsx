@@ -25,13 +25,14 @@ export default function Signup() {
     }
   }, []);
   return (
-    <div className="for-flex">
+    <div className="for-flex-signup">
       <div>
-        <div className="image-center">
-          <img src={logo} alt="Logo" className="image-login" />
+        
+        <div className="image-center-signup">
+          <img src={logo} alt="Logo" className="image-signup" />
         </div>
-        <div className="for-box">
-          <div className="txt-field">
+        <div className="for-box-signup">
+          <div className="text-field-signup">
             <TextField
               id="outlined-basic"
               label="First Name"
@@ -85,7 +86,7 @@ export default function Signup() {
               }}
             />
           </div>
-          <div className="txt-field">
+          <div className="text-field-signup">
             <TextField
               id="outlined-basic"
               label="Password"
@@ -108,7 +109,7 @@ export default function Signup() {
             />
           </div>
           <Button
-          className="button1"
+          className="signup-btn"
             variant="contained"
             onClick={() => {
               axios
@@ -140,10 +141,11 @@ export default function Signup() {
             Signup
           </Button>
 
-          <div className="hr"></div>
+          <div className="hr-signup"></div>
 
-          <Button variant="contained" className="button2"onClick={() => {navigate("/login");}}>LOGIN</Button>
+          <Button variant="contained" className="login-btn-signup"onClick={() => {navigate("/login");}}>LOGIN</Button>
         </div>
+        
       </div>
     </div>
   );

@@ -1,18 +1,25 @@
 import { useState, useEffect } from "react";
-import { Link, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import React from "react";
 import Button from "@mui/material/Button";
 import axios from "axios";
-import Header from "../components/header";
-import carousal from "../components/carousel";
 
+import Carousel from "../components/carousel";
+import "./home.css";
+import Navbar from "../components/navbar";
+import Special from "../components/special";
+import logo1 from "../assets/left-logo.jpeg";
+import logo from "../assets/healior_symbol2.jpeg";
+import Modal from "../components/modal";
+import AirportShuttleIcon from "@mui/icons-material/AirportShuttle";
+import LocalPhoneIcon from "@mui/icons-material/LocalPhone";
+import Header from "../components/header";
 
 export default function Home() {
   const navigate = useNavigate();
-
+  const [modalOpen, setModalOpen] = useState(false);
   const [userName, setUserName] = useState("");
   const [age, setAge] = useState(0);
-  
 
   // On page open, run the id check
   useEffect(() => {
@@ -38,17 +45,45 @@ export default function Home() {
       });
   }, []);
 
-  
   return (
     <div>
-       <Header/>
+      {/* <div className="width-flex">
+          <div className="width">
+            <div className="header-flex">
+              <img src={logo} alt="" className="main-logo-home" />
 
-      <Button variant="contained" onClick={() => {
-          // Delete id
-          window.localStorage.removeItem("id");
-          // redirect to login page
-          navigate("/login");
-        }}>Logout</Button>
+              <button className="openModalBtn1">
+                <LocalPhoneIcon className="right" />
+                Appointment
+              </button>
+
+              <button
+                className="openModalBtn"
+                onClick={() => {
+                  setModalOpen(true);
+                }}
+              >
+                <AirportShuttleIcon className="right" />
+                Emergency
+              </button>
+
+              {modalOpen && (
+                <Modal setOpenModal={setModalOpen} className="z-index1" />
+              )}
+              <div className="logo1-div">
+              <img src={logo1} alt="" className="logo1" />
+              </div>
+              
+            </div>
+           
+          </div>
+          
+        </div> */}
+      
+      <Navbar />
+      <Carousel />
+      <Special/>
+      
     </div>
   );
 }

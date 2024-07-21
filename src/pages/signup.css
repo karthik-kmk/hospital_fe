@@ -1,4 +1,4 @@
-.for-box{
+.for-box-signup{
     margin-top: -25px;
     border: 3px solid black;
     display: flex;
@@ -7,14 +7,15 @@
     width: fit-content;
     gap: 20px;
     padding: 20px 20px;
+    padding-bottom: 10px;
 }
 
-.for-flex{
+.for-flex-signup{
     display: flex;
     justify-content: center;
 }
 
-.txt-field{
+.text-field-signup{
     display: flex;
     gap: 10px;
 }
@@ -23,7 +24,7 @@
     background-color: transparent;
 }
 
-.button1{
+.signup-btn{
     background-image: linear-gradient(to left, #19c3bd, #208da8, #4a79d1) !important;
     border: 2px solid black !important;
     font-family:'Times New Roman', Times, serif !important;
@@ -31,7 +32,7 @@
 }
 
 
-.button2{
+.login-btn-signup{
     background-image: linear-gradient(to left, #19c3bd, #208da8, #4a79d1) !important;
     border: 2px solid black !important;
     width: 300px;
@@ -39,4 +40,25 @@
     left: 65px;
     font-family:'Times New Roman', Times, serif !important;
     font-weight: 400 !important;
+    
+}
+
+.hr-signup{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-bottom:2px solid black ;
+    margin-top: -10px;
+    margin-bottom: -10px;
+}
+
+.image-center-signup{
+    display:flex;
+    justify-content: center;
+}
+
+
+.image-signup{
+    margin-top: -40px;
+    height: 300px;
+    width: 300px;
 }

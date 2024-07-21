@@ -1,18 +1,24 @@
 
-body {
+body{
     background-image: url("/src/assets/bg_image1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+
 }
 
-.center {
+.for-landing-logo-center {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+.buttons-center-landing{
     display: flex;
     justify-content: center;
     gap: 100px;
 }
 
 
-img {
+.landing-logo{
     display: flex;
     justify-content: center;
     border-radius: 50%;
@@ -20,7 +26,7 @@ img {
     width: 300px;
 }
 
-.main-btns {
+.btns-landing {
     font-family: italic !important;
     font-size: 30px !important;
     position: relative;
@@ -33,14 +39,14 @@ img {
 
 .text-landing{
     position: absolute;
-    top: 150px;
+    top: 250px;
     font-size: 150px;
     
     font-style: italic;
     font-weight: 600;
 }
 
-.for-heading{
+.for-heading-center-landing{
     display: flex;
     justify-content: center;
 }

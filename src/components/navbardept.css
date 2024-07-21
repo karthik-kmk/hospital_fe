@@ -1,0 +1,39 @@
+.nav-dept{
+    position: fixed;
+    z-index: 4;
+    width: 100%;
+    background-image: linear-gradient(to left, #19c3bd, #208da8, #4a79d1);
+    
+    
+}
+.nav-dept-ul{
+    
+    
+    color: white;
+      
+    display: flex;
+    justify-content: center;
+    
+    justify-content: space-evenly ;
+    
+}
+.text-decor{
+    position: relative;
+    top: 3px;
+    font-weight: 600;
+    font-size: 24px;
+    color: white;
+
+  
+    
+}
+
+.logo-dept-nav{
+    position: fixed;
+    z-index: 5;
+    height: 40px;
+    width: 40px;
+    border-radius: 5px;
+    top: 4px;
+    left: 5px;
+}

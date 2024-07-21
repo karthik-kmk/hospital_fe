@@ -1,0 +1,45 @@
+.black1{
+    height: 400px;
+    width: 3px;
+    background-color: black;
+}
+
+.black{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+li{
+    list-style: none;
+    font-size: 20px;
+}
+
+.yes{
+    margin-top: -100px;
+    display: flex;
+    justify-content: flex-start;
+ 
+}
+.left{
+    position: absolute;
+    /* margin-left: 430px; */
+}
+
+.fortop{
+    margin-top: 200px;
+}
+
+.top{
+    margin-top: 50px;
+}
+
+.left-right{
+    display: flex;
+}
+
+
+.right1{
+    margin-top: 50px;
+    margin-left: 330px;
+}
