@@ -1,0 +1,19 @@
+.App {
+    text-align: center;
+    background-color: #e3f2fd;
+    min-height: 100vh;
+  }
+  
+  .App-header {
+    background-color: #1976d2;
+    padding: 20px;
+    color: white;
+  }
+  
+  .medicine-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+  }
+  

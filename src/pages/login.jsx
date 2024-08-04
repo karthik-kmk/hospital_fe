@@ -21,7 +21,7 @@ export default function Home() {
   }, []);
 
   return (
-    <div>
+    <div className="background-image-login">
       <div className="image-login-center">
         <img src={logo} alt="Logo" className="image-login" />
       </div>

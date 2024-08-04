@@ -1,0 +1,76 @@
+.patient-main {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 600px;
+  border: 1px solid #777;
+  background-color: #f0f0f0;
+  padding: 20px;
+  box-shadow: 4px 7px 5px 0px #444;
+  max-height: 700px;
+  overflow: auto;
+}
+
+.patient-header {
+  border-bottom: 1px solid #212529;
+  padding-bottom: 15px;
+}
+
+.patient-body-main {
+  display: flex;
+  flex-direction: column;
+  padding-top: 5px;
+}
+
+.patient-input {
+  margin-right: 10px;
+}
+
+.patient-body-row {
+  display: flex;
+  margin-top: 20px;
+  justify-content: space-between;
+}
+
+.patient-submit-button-main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.patient-patients-main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  
+
+
+}
+
+.logo-person{
+  height: 100px;
+  z-index: 4;
+}
+.patient-patients-item-main {
+  background-image: linear-gradient(to left, #19c3bd, #208da8, #4a79d1) !important;
+  color: white;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  width:400px;
+  
+  border: 1px solid #ababab;
+  margin: 20px;
+  border-radius: 5px;
+  padding: 10px;
+  user-select: none;
+  cursor: pointer;
+}
+
+.patient-patients-item-main:hover {
+  border: 1px solid #999;
+  background-color: #e0e0e0;
+  color: #000;
+}

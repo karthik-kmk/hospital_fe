@@ -12,7 +12,8 @@ import KeyboardDoubleArrowLeftIcon from "@mui/icons-material/KeyboardDoubleArrow
 import DashboardIcon from "@mui/icons-material/Dashboard";
 import QuestionMarkIcon from "@mui/icons-material/QuestionMark";
 import SearchIcon from "@mui/icons-material/Search";
-
+import AutoStoriesIcon from "@mui/icons-material/AutoStories";
+import HealingIcon from "@mui/icons-material/Healing";
 import LocalPharmacyIcon from "@mui/icons-material/LocalPharmacy";
 import LocationCityIcon from "@mui/icons-material/LocationCity";
 import LogoutIcon from "@mui/icons-material/Logout";
@@ -21,23 +22,17 @@ import Imageside from "../assets/healior_symbol-removebg-preview.png";
 import logo from "../assets/healior_logo.jpeg";
 import DehazeIcon from "@mui/icons-material/Dehaze";
 
-
-
 export default function Header() {
-  
   const navigate = useNavigate();
-  
+
   const [drawer, setDrawer] = useState(false);
 
   const DrawerList = (
-    <Box sx={{ width: 300 }} role="presentation" className="bg-header" >
+    <Box sx={{ width: 300 }} role="presentation" className="bg-header">
       <img src={logo} alt="logo" className="logo-header" />
-     
-      
 
-      <ListItemButton className="arrow1" >
+      <ListItemButton className="arrow1">
         <ListItemIcon
-        
           className="arrow2"
           onClick={() => {
             setDrawer(false);
@@ -49,22 +44,22 @@ export default function Header() {
 
       <List>
         {[
-          { icon: <DashboardIcon />, name: "Dashboard", link: "/dashboard",},
           {
-            icon: <SearchIcon />,
-            name: "Patient registration",
-            link: "/patient-registration",
+            icon: <AutoStoriesIcon />,
+            name: "Book Appointment",
+            link: "/appointment",
           },
-      
+
           { icon: <LocalPharmacyIcon />, name: "Pharmacy", link: "/pharmacy" },
+
           {
-            icon: <LocationCityIcon />,
-            name: "Departments" ,
+            icon: <HealingIcon />,
+            name: "Our Specialities",
             link: "/departments",
           },
-          { icon: <QuestionMarkIcon />, name: "About us", link: "/about-us" },
+          { icon: <QuestionMarkIcon />, name: "About us", link: "/aboutus" },
         ].map((item) => (
-          <ListItem key={item.name} disablePadding >
+          <ListItem key={item.name} disablePadding>
             <Link to={item.link} style={{ textDecoration: "none" }}>
               <ListItemButton>
                 <ListItemIcon>{item.icon}</ListItemIcon>
@@ -89,11 +84,6 @@ export default function Header() {
         </ListItemIcon>
         <ListItemText primary={"Logout"} />
       </ListItemButton>
-
-     
-
-
-      
     </Box>
   );
 

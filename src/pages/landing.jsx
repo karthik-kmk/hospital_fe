@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 export default function Landing() {
   
   return (
-    <div>
+    <div className="background-image-landing">
       <div className="for-landing-logo-center">
         <img src={logo} alt="Logo" className="landing-logo" />
       </div>

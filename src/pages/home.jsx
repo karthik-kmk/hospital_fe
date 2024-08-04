@@ -10,7 +10,7 @@ import Navbar from "../components/navbar";
 import Special from "../components/special";
 import logo1 from "../assets/left-logo.jpeg";
 import logo from "../assets/healior_symbol2.jpeg";
-import Modal from "../components/modal";
+import Modal from "../components/modal1";
 import AirportShuttleIcon from "@mui/icons-material/AirportShuttle";
 import LocalPhoneIcon from "@mui/icons-material/LocalPhone";
 import Header from "../components/header";

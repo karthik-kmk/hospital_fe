@@ -64,9 +64,6 @@
     margin-top: 150px;
 }
 
-.bot-special{
-    margin-bottom: 100px;
-}
 
 .color{
     height: 100%;
@@ -85,6 +82,10 @@
     height:310px
 }
 
+
+.below{
+    margin-bottom: 100px;
+}
 
 
 .hidden-text {
@@ -114,8 +115,4 @@
     height: 60px;
     width: 60px;
     color: white;
-}
-
-.bot-special{
-    margin-bottom: 100px;
 }

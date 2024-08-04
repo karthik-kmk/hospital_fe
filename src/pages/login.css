@@ -5,6 +5,14 @@
 
 }
 
+.background-image-login{
+    
+    background-image: url("/src/assets/bg_image1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    margin-top: -10px;
+}
 
 .for-box-login {
     border: 3px solid black;

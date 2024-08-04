@@ -23,7 +23,7 @@ li{
 }
 .left{
     position: absolute;
-    /* margin-left: 430px; */
+    margin-left: 300px;
 }
 
 .fortop{
@@ -41,5 +41,5 @@ li{
 
 .right1{
     margin-top: 50px;
-    margin-left: 330px;
+    margin-left: 250px;
 }

@@ -13,6 +13,10 @@
 .for-flex-signup{
     display: flex;
     justify-content: center;
+    background-image: url("/src/assets/bg_image1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
 }
 
 .text-field-signup{

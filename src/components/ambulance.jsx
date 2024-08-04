@@ -4,7 +4,7 @@ import "./ambulance.css";
 const ambulance = () => {
   return (
     <div>
-      {/* <div className="black">
+      <div className="black">
         <div className="black1"></div>
       </div>
       <div className="left-right">
@@ -69,7 +69,7 @@ const ambulance = () => {
 
 
 
-      </div> */}
+      </div>
     </div>
   );
 };

@@ -9,7 +9,7 @@ import AirportShuttleIcon from "@mui/icons-material/AirportShuttle";
 import LocalPhoneIcon from "@mui/icons-material/LocalPhone";
 import AutoStoriesIcon from "@mui/icons-material/AutoStories";
 import HealingIcon from "@mui/icons-material/Healing";
-
+import HomeIcon from '@mui/icons-material/Home';
 const Navbar = () => {
   const [modalOpen, setModalOpen] = useState(false);
   return (
@@ -57,17 +57,21 @@ const Navbar = () => {
           </div>
         </li>
         <div className="whitebox"></div>
+
+        <Link to="/home" style={{textDecoration:"none"}}> 
+    
         <li className="nav-width">
           <div className="openModalBtn1">
-            <HealingIcon className="top-nav" />
+            <HomeIcon className="top-nav" />
           </div>
           <div>
-            <a href="#special" className="vh1">
-              <p className="first-p">Our</p>
-              <p className="second-p">Specialities</p>
-            </a>
+            
+              <p className="first-p">Go</p>
+              <p className="second-p">Home</p>
+           
           </div>
         </li>
+        </Link>
         <div className="whitebox"></div>
       </nav>
     </div>

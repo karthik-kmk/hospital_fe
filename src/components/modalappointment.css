@@ -1,0 +1,42 @@
+.date-picker{
+    width: 300px !important;
+    color: black !important;
+}
+
+.p-modal-apt{
+    font-size: 40px;
+    text-align: center;
+    font-weight: 700;
+    color:#164d92;
+
+}
+.submit-modal-apt{
+    background-color:#00b48d ;
+    color: white;
+    font-size: 30px;
+    padding: 5px 50px;
+    border-radius: 5px;
+    margin-top: 10px;
+    border:none;
+}
+
+.submit-modal-apt-div{
+    display: flex;
+    justify-content: center;
+}
+
+.text-field-apt{
+    width: 300px !important;
+}
+
+.div1-apt{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+}
+
+.text-field-apt1{
+    margin-top: 8px !important;
+    width: 300px !important;
+}
+

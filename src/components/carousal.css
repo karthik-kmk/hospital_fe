@@ -1,5 +1,46 @@
-
-img{
+img {
     height: 100vh;
     width: 100%;
+}
+
+.click-3image {
+    position: absolute;
+    z-index: 3;
+    font-size: 30px;
+
+    top: 70%;
+    left: 4%;
+    /* transform: translate(-50%, -50%); */
+    color: white;
+    background-color: #00BF8D;
+    width: 250px;
+   
+    display: flex;
+    justify-content: center;
+    border: none;
+    border-radius: 5px;
+
+
+}
+
+.click-3image:hover{
+    background-color: lightskyblue;
+    
+}
+
+.p-knowmore {
+    position: relative;
+    top: 5px;
+}
+
+.knowmore-logo {
+    height: 35px !important;
+    width: 35px !important;
+    position: relative;
+    top: 13px;
+    left: 10px;
+}
+
+.radius1{
+    margin-top: 5%;;
 }

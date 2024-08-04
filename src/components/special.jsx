@@ -109,7 +109,7 @@ const Special = () => {
           </div>
         </Link>
         <Link to="/departments" style={{ textDecoration: "none" }}>
-          <div className="first">
+          <div className="first below">
             <img src={Pediatrics} alt="" className="image-slider" />
             <p className="first-p1">Pediatrics</p>
 
